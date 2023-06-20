@@ -37,9 +37,9 @@ anchor-derive-space = { path = "./derive/space", version = "0.28.0" }
 arrayref = "0.3"
 base64 = "0.13"
 bincode = "1"
-borsh = "=0.9.3"
+borsh = "~0.9"
 bytemuck = "1.7.2"
-solana-program=">=1.14, <1.17"
+solana-program={ git="https://github.com/solana-fm/be-mono-dep-solana.git", branch="v1.14"}
 thiserror = "1"
 
 # TODO: Remove. This crate has been added to fix a build error with the 1.16.0 release.
