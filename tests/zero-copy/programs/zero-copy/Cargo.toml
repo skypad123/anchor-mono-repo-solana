@@ -22,4 +22,4 @@ bytemuck = {version = "1.4.0", features = ["derive", "min_const_generics"]}
 
 [dev-dependencies]
 anchor-client = { path = "../../../../client", features = ["debug", "async"] }
-solana-program-test = { git="https://github.com/skypad123/solana-client-tokio-v1.14.1.git", branch="v1.14"}
+solana-program-test = { git="https://github.com/solana-fm/be-mono-dep-solana.git", branch="v1.14"}
